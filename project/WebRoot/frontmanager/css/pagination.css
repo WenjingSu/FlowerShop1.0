@@ -1,0 +1,33 @@
+#buttom{
+			width:540px;
+			margin: 10px auto;
+}
+.pagination {
+			float:left;
+            font-size: 16px;
+   }
+.pagination a {
+    text-decoration: none;
+	border: solid 1px rgb(82,208,196);
+	color:  rgb(82,208,196);
+}
+
+.pagination a, .pagination span {
+    padding: 0.3em 0.5em;
+    margin-right: 5px;
+	margin-bottom: 5px;
+	min-width:1em;
+	text-align:center;
+}
+
+.pagination .current {
+    background: rgb(82,208,196);
+    color: #fff;
+	border: solid 1px #AAE;
+}
+
+.pagination .current.prev, .pagination .current.next{
+	color: rgb(82,208,196);;
+	border-color: rgb(82,208,196);;
+	background:#fff;
+}
